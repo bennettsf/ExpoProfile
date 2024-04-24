@@ -1,7 +1,17 @@
 {
   "expo": {
-    "name": "ExpoConfigDemo",
-    "slug": "ExpoConfigDemo",
+    "name": "bennett-ExpoConfigDemo",
+    "description": "testing app config settings",
+    "slug": "bennett-expoconfigdemo",
+    "owner": "bennettsf",
+    "privacy": "public",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "enabled": false,
+      "checkAutomatically": "ON_ERROR_RECOVERY"
+    },
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,13 +25,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bennettsf.myApp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.bennettsf.myApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
